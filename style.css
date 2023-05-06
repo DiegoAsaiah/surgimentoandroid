@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'maku';
+    src: url('MAKISUPA.TTF');
+}
+
+@font-face {
+    font-family: 'android';
+    src: url('idroid.otf');    
+}
+
+
+:root {
+    --cor1: rgb(216,218,189);
+    --cor2: #89d9b2;
+    --cor3: #38dd7c;
+    --cor4: #3aa46b;
+    --cor5: #205b3f;
+    --cor6: #083b25;
+    
+    --fontepadrao: Arial, Verdana, Sans-serif;
+    --fontedestaque: 'Bebas Neue', cursive;
+    --fonteandroid: 'android', cursive;
+}
+
+body {
+    font-family: var(--fontepadrao);
+    background-color: var(--cor1);
+}
+
+p {
+    margin: 25px 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
+    min-height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fontedestaque);
+    font-weight: normal;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.646);
+}
+
+header p {
+    color: white;
+    font-family: 'maku', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 18px;
+    max-width: 430px;
+    margin: auto;
+    padding-bottom: 35px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+nav {
+    background-color: var(--cor6);
+    box-shadow: -1px 7px 5px 2px rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 9px 0px;
+}
+
+nav > a {
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: #38dd7c;
+    color: #083b25;
+    transition-duration: 0.3s;
+    border-radius: 25px;
+}
+
+main p {
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+main strong {
+    color: #38dd7c;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0px 5px;
+    }
+
+main a {
+    text-decoration: underline;
+    font-size: 18px;
+    color: #052215;
+    background-color: #5affaf;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #22fd9b;
+    background-color: #0d271a;
+    transition-duration: 0.2s;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.droid {
+    display: flex;
+    max-width: 300px;
+    margin: 40px auto;
+}
+
+div.videos {
+    background-color: #083b25;
+    padding: 20px 30px;
+    margin: 1px -21px 0px -21px;
+}
+div.videos iframe {
+    width: 100%;
+    
+    
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px 20px 50px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+main h2 {
+    font-family: var(--fonteandroid);
+    font-weight: normal;
+    background-image: linear-gradient(to right, #60c795c4, rgba(255, 255, 255, 0));
+    padding-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+aside {
+    background-color: #18c577;
+    color: #03110b;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 50px 0px;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.200);
+}
+
+aside p {
+    line-height: 25px;
+}
+
+aside h3 {
+    background-color: #052215;
+    color: white;
+    margin: -10px -25px 0px -25px;
+    padding: 5px 0px 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+aside ul {
+    list-style-type: '✔️';
+    columns: 2;
+    list-style-position: inside;
+    padding: 20px 0px 40px 0px;
+}
+
+aside abbr {
+    text-decoration: none;
+}
+
+aside .textofinal {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #052215;
+    padding: 5px 0px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+footer a:hover {
+    background-color: #24db89;
+    color: black;
+    padding: 0px 10px;
+    transition-duration: 0.2s;
+    border-radius: 5px;
+}
+
+.seta {
+    
+    max-width: 50px;
+    margin: 0px 0px 30px 50%;
+    background-color: #052215;
+    border-radius: 25px;
+    
+}

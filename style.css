@@ -56,7 +56,7 @@ header p {
     color: white;
     font-family: 'maku', sans-serif;
     font-weight: normal;
-    padding-bottom: 10px;
+    padding: 10px;
     font-size: 18px;
     max-width: 430px;
     margin: auto;
@@ -87,6 +87,8 @@ nav > a:hover {
 main p {
     text-indent: 30px;
     line-height: 25px;
+    padding: 0px 40px 1px 40px;
+    text-align: justify
 }
 
 main strong {
